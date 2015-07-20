@@ -1,0 +1,154 @@
+/*
+Extend styles for customization
+*/
+
+#workExperience, #projects, #education {
+	padding-bottom: 20px;
+}
+p {
+	color: #595959;
+}
+
+.emphasis {
+	font-style: italic;
+}
+
+.seaFoam {
+	background-color: #99cfb6;
+}
+
+.seaFoam-text {
+	color: #99cfb6;
+  	font-family: 'Michroma', Arial, sans-serif;
+  	font-weight: 300;
+  	font-size: 14px;
+}
+
+.white-text {
+	font-weight: 500;
+  	color: #ffffff;
+ 	font-family: Roboto;
+}
+
+.dark-grey-text {
+	color: #5c5c5c;
+}
+
+.shadow-text {
+	  text-shadow: 2px 2px 3px rgba(0,0,0,.7);
+}
+
+/* Header */
+#header {
+	border-bottom: 2px solid #1a7490;
+}
+h1 {
+	font-family: 'Raleway',sans-serif;
+	font-weight: 200;
+	color: #00a1d3;
+	line-height: 54px;
+	/*text-transform: uppercase;*/
+}
+
+.sub-h1 {
+	font-size: 16px;
+	font-family: 'Michroma',sans-serif;
+	color: #abb3b5;
+}
+
+hr {
+	color: #53666f;
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(134, 252, 198, 0), rgba(134, 252, 198, 0.75), rgba(134, 252, 198, 0));
+}
+
+.biopic  {
+	 padding: 2px;
+     background-color: #080808;
+     margin: 0 10px 0 0;
+     border: 1px solid #B3B3B3
+}
+
+#skillsH3 {
+	color: #99CFB6;
+  	font-family: Michroma;
+ 	font-size: 18px;
+ 	font-weight: 300;
+}
+#skills li {
+	font-size: 18px;
+}
+
+.welcome-message {
+	font-style: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Raleway;
+}
+
+/* Work Experience */
+.gray {
+	background-color: #dadada;
+}
+
+a {
+	font-size: 20px;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #808080;
+}
+
+.dark-grey-hr {
+	color: #53666f;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(134, 252, 198, 0), rgba(86, 86, 86, 1), rgba(134, 252, 198, 0));
+}
+
+.date-text, .location-text {
+	font-family: Michroma;
+    font-size: 14px;
+	color: #107456;
+}
+
+/*  Projects */
+.project-entry img {
+	border: 1px #777 solid;
+	margin: 10px;
+	padding: 0;
+}
+
+.projectCTA {
+	background-color: rgba(0,0,0,0.5);
+	z-index: 100;
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	width: 280px;
+	color: #bfffe1;
+	height: 30px;
+	text-align: center;
+	padding-top: 10px;
+	display: none;
+}
+
+.imgContainer {
+	display: inline-flex;
+	width: 300px;
+	position: relative;
+}
+.projectCTA a img {
+	z-index: 1;
+}
+/* Education */
+.education-entry h3 {
+	padding-left: 0;
+    padding-bottom: 0;
+    font-family: Raleway;
+    color: #808080;
+    margin-top: 15px;
+}
