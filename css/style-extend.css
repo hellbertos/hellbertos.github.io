@@ -106,6 +106,8 @@ hr {
  	display: none;
  	opacity: 0;
  	animation: fadeInFromNone 1.5s ease-out;
+
+ 	padding-bottom: 6px;
  }
 
  @keyframes fadeInFromNone {
@@ -137,7 +139,7 @@ hr {
   	font-family: Michroma;
  	font-size: 14px;
  	font-weight: 300;
- 	padding: 4px 0 4px 4px;
+ 	padding: 6px 12px;
  	margin-bottom: 8px;
  }
 
