@@ -1,0 +1,278 @@
+/*
+Extend styles for customization
+*/
+
+#workExperience, #projects, #sideProjects, #education {
+	padding-bottom: 20px;
+}
+p {
+	color: #595959;
+}
+
+.emphasis {
+	font-style: italic;
+}
+
+.seaFoam {
+	background-color: #99cfb6;
+}
+
+.seaFoam-text {
+	color: #99cfb6;
+  	font-family: 'Michroma', sans-serif;
+  	font-weight: 300;
+  	font-size: 14px;
+}
+
+.white-text {
+	font-weight: 500;
+  	color: #FFFFFF;
+ 	font-family: Roboto;
+}
+
+.white-text a {
+	font-weight: 500;
+  	color: #FFFFFF;
+ 	font-family: Roboto;
+ 	font-size: 14px;
+ 	display: inherit;
+}
+
+.white-text a:hover {
+	text-decoration: underline;
+}
+
+.dark-grey-text {
+	color: #5c5c5c;
+}
+
+.shadow-text {
+	  text-shadow: 2px 2px 3px rgba(0,0,0,.7);
+}
+
+/* Header */
+#header {
+	border-bottom: 2px solid #1a7490;
+}
+h1 {
+	font-family: 'Raleway',sans-serif;
+	font-weight: 200;
+	color: #00a1d3;
+	line-height: 54px;
+	/*text-transform: uppercase;*/
+}
+
+.sub-h1 {
+	font-size: 16px;
+	font-family: 'Michroma',sans-serif;
+	color: #abb3b5;
+}
+
+hr {
+	color: #53666f;
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(134, 252, 198, 0), rgba(134, 252, 198, 0.75), rgba(134, 252, 198, 0));
+}
+
+.introImg {
+	flex-basis: 196px;
+	flex-grow: 0;
+}
+
+.introTxt {
+	flex-basis: 600px;
+	flex-grow: 1;
+}
+
+.biopic  {
+	 padding: 2px;
+     background-color: #080808;
+     margin: 0 10px 0 0;
+     border: 1px solid #B3B3B3;
+     clear: both;
+     float: none;
+}
+
+.welcome-message, .personalInfo {
+	font-family: 'Raleway', san-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: italic;
+    color: #f3f3f3;
+}
+
+ .personalInfo {
+ 	display: none;
+ 	opacity: 0;
+ 	animation: fadeInFromNone 1.5s ease-out;
+ }
+
+ @keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+ .open {
+ 	display: block;
+ 	opacity: 1;
+
+ }
+
+ #personalH3 {
+ 	color: #99CFB6;
+ 	background-color: #333;
+  	font-family: Michroma;
+ 	font-size: 14px;
+ 	font-weight: 300;
+ 	padding: 4px 0 4px 4px;
+ 	margin-bottom: 8px;
+ }
+
+.showInfo {
+	background-color: #69a589;
+	color: #fff;
+	display: inherit;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+#skillsH3, #toolsH3 {
+	color: #99CFB6;
+  	font-family: Michroma;
+ 	font-size: 18px;
+ 	font-weight: 300;
+ }
+
+#skillsH3, #toolsH3 {
+ 	padding-left: 0;
+ 	padding-bottom: 0;
+ }
+
+#toolsH3 {
+  	padding-top: 0;
+}
+
+#tools li {
+	color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 2px rgb(0,0,0);
+}
+ .sub-text {
+ 	font-size: 14px;
+ }
+
+.skillsIco {
+	width: 55%;
+}
+
+.tipso_style {
+    border-bottom: none;
+}
+
+/* Work Experience */
+.gray {
+	background-color: #dadada;
+}
+
+a {
+	font-size: 20px;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #808080;
+}
+
+h2.darkerGray {
+	color: #4a4a4a;
+}
+
+.dark-grey-hr {
+	color: #53666f;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(134, 252, 198, 0), rgba(86, 86, 86, 1), rgba(134, 252, 198, 0));
+}
+
+.date-text, .location-text {
+	font-family: Michroma;
+    font-size: 14px;
+	color: #107456;
+}
+
+.job-lists {
+	margin-top: 20px;
+	padding-left: 10px;
+}
+
+.job-item {
+	color: #595959;
+	padding: 3px 0;
+	font-size: 16px;
+	padding-left: 25px;
+	background: transparent url(../images/li-bullet.png) center left no-repeat;
+}
+
+/*  Projects */
+.project-entry img {
+	border: 1px #777 solid;
+	margin: 10px;
+	padding: 0;
+}
+
+.projectCTA {
+	background-color: rgba(0,0,0,0.5);
+	z-index: 100;
+	position: absolute;
+	left: 10px;
+	top: 20px;
+	width: 280px;
+	color: #bfffe1;
+	height: 30px;
+	text-align: center;
+	padding-top: 10px;
+	display: none;
+}
+
+.imgRow {
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.imgContainer {
+	width: 300px;
+	position: relative;
+}
+
+.imgCntrFlex {
+	display: inline-flex;
+	width: 300px;
+	position: relative;
+}
+
+.projectCTA a img {
+	z-index: 1;
+}
+/* Education */
+.education-entry h3 {
+	padding-left: 0;
+    padding-bottom: 0;
+    font-family: Raleway;
+    color: #808080;
+    margin-top: 15px;
+}

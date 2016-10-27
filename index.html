@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>James Ruggieri - San Francisco based Front-end Developer and Designer</title>
+    <!-- Load the fonts. -->
+    <link href="http://fonts.googleapis.com/css?family=Michroma" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Raleway: 100,200,300,400,500,600,700" rel="stylesheet">
+    <!-- Load the page styles. -->
+    <link href="css/featherlight.min.css" type="text/css" rel="stylesheet" title="Featherlight Styles" />
+
+    <link rel="stylesheet" href="css/tipso.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/style-extend.css" rel="stylesheet">
+    
+    <!-- Load jQuery from SRI cdn-->
+    <script   src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+    <!-- Add Lightbox plugin -->
+    <script src="js/featherlight.min.js"></script>
+
+    <!-- Add Tooltip Library -->
+    <script src="js/tipso.js"></script>
+
+    <!-- Helper file to organize js objects and various functions -->
+    <script src="js/helper.js"></script>
+
+    <!--
+    Add Google Maps API
+    -->
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body >
+    <div id="main">
+      <!--
+      Scaffold for js objects to populate
+      -->
+      <div id="header" class="center-content clearfix">
+        <ul id="topContacts" class='flex-box'></ul>
+        <div class="intro flex-box"></div>
+      </div>
+      <div style='clear: both;'></div>
+      <div id="workExperience" class='gray'>
+        <h2 class="darkerGray">Work Experience</h2>
+        <hr class="dark-grey-hr">
+      </div>
+      <div id="projects">
+        <h2>Recent Websites</h2>
+        <hr class="dark-grey-hr">
+      </div>
+      <div id="sideProjects" class='gray'>
+        <h2 class="darkerGray">Side Projects</h2>
+        <hr class="dark-grey-hr">
+      </div>
+      <div id="education">
+        <h2>Education</h2>
+        <hr class="dark-grey-hr">
+      </div>
+      <div id="mapDiv" class='gray'>
+        <h2 class="darkerGray">Where I've Lived and Worked</h2>
+      </div>
+      <div id="letsConnect" class='dark-gray'>
+        <h2 class='seaFoam dark-grey-text center-text'>Let's Connect</h2>
+          <ul id="footerContacts" class="flex-box">
+        </ul>
+      </div>
+    </div>
+    <!--
+    Load up the builder file
+    -->
+    <script src="js/resumeBuilder.js"></script>
+
+
+    <script src="js/display.js"></script>
+  </body>
+</html>
