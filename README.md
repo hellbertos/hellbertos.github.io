@@ -1,4 +1,4 @@
-#My Online Resume and Mini-portfolio
+#My Online Occupational Profile and Mini-portfolio
 ## James Ruggieri
 
 Just a basic README here for my web resume that I will host on github. Not much to get into, but I may add a few things as I get going. Its a straight forward, single page site which will use:
