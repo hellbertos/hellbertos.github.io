@@ -212,20 +212,20 @@ var education = {
     "schools" :
         [
             {
+                "name" : "UC Berkeley Extention",
+                "location" : "UCB Ext. San Francisco Campus",
+                "degree" : "Singular Night Classes",
+                "majors" : ["Extended Learning in CompSci"],
+                "dates" : "1998 - 2001",
+                "url": "http://extension.berkeley.edu/"
+            },
+            {
                 "name": "UCSB",
                 "location": "Santa Barbara, CA",
                 "degree" : "Bachelor of Science",
                 "majors" : ["Environmental Studies"],
                 "dates" : 1993,
                 "url": "http://www.ucsb.edu/"
-            },
-            {
-                "name" : "UC Berkeley Extention",
-                "location" : "UCB Ext. San Francisco Campus",
-                "degree" : "Singular Night Classes",
-                "majors" : ["Extended Learning in CompSci"],
-                "dates" : 1999,
-                "url": "http://extension.berkeley.edu/"
             },
             {
                 "name" : "Cabrillo College",
@@ -244,14 +244,14 @@ var education = {
                 "date" : 2015,
                 "url" : "http://udacity.com",
                 "courseUrl" : "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
-            },
-            {
+            }
+            /*{
                 "title" : "One Day Intensive Courses",
                 "school" : "Varies",
                 "date" : "2012 - presesnt",
                 "url" : "varies",
                 "courseUrl" : ""
-            }
+            }*/
         ],
     "display" : function() {
                     var instruction;
@@ -301,7 +301,7 @@ var projects = {
             "title" : "crescentmoonskincare.com",
             "link" : "http://crescentmoonskincare.com",
             "dates" : "2016",
-            "description" : "The owners boutique skin care studio in San Francisco's Pacific Heights neighborhood contact me to redesign their website to focus on their core offering of clearing acneic skin and dealing with other serious skin afflictions. During the course of discovery, it was determined that we could streamline two important parts of their customer interaction by offering online booking and online product purchases, but only to acne clients; not every client who comes for their array of services.<br><br>The site is built on the Wordpress framework and uses WP's user roles to hide the online booking service and the web shop from general users as well as custom post types, widgets, and array of plugings; along with Wordpress's built in blogging engine and robust content management functionality.<br><br>The responsive, custom theme was built using Bootstrap; mainly using the grid and accordion components.<br><br>Technologies Used: HTML, CSS, JS, Bootstrap, Jquery, Wordpress, Woo Commerce, PHP.",
+            "description" : "The owners boutique skin care studio in San Francisco's Pacific Heights neighborhood contacted me to redesign their website because the old site did not focus on their core offering of clearing acneic skin and dealing with other serious skin afflictions. During the course of discovery, it was determined that we could streamline two important parts of their customer interaction by offering online booking and online product purchases, but only to acne clients.<br><br>The site is built on the Wordpress framework and uses WP's user roles to hide the online booking service and the web shop from general users as well as custom post types, widgets, and array of plugings; along with Wordpress's built in blogging engine and robust content management functionality.<br><br>The responsive, custom theme was built using Bootstrap; mainly using the grid and accordion components.<br><br>Technologies Used: HTML, CSS, JS, Bootstrap, Jquery, Wordpress, Woo Commerce, PHP.",
             "images" : ["images/cm-home.jpg", "images/cm-srv2.jpg", "images/cm-serv.jpg", "images/cm-contact.jpg"],
             "imagesLb" : ["images/cm-home-lb.jpg", "images/cm-srv2-lb.jpg", "images/cm-serv-lb.jpg", "images/cm-contact-lb.jpg"]
         },
@@ -309,7 +309,7 @@ var projects = {
             "title" : "caiakoopman.com",
             "link" : "http://caiakoopman.com",
             "dates" : "2014 - present",
-            "description" : "This 'Pop Surrealist' artist contacted me initially to rethink her web presence. Her existing site design had aged and was unintuitive to update, thus was rarely current.<br><br>During project discovery, it was quickly apparent that a rebuild was in order and a complete restructuring of her content was needed. Additionally, it was determined that she could, and should, sell all her own products directly from her own online shop, rather than a select few while producers sold the rest from their own outlets.<br><br>After a long planning phase, a heavily customized child theme and a well-thought out Woo Commerce store brought her new site up before the Christmas season.<br><br>Many custom templates, custom post types and widgets along w/ a ton of content bring this artist's work to her fans online.<br><br>Technologies Used: HTML, CSS, JS, Jquery, Wordpress, Woo Commerce, PHP.",
+            "description" : "This 'Pop Surrealist' artist contacted me to rethink her web presence. Her existing site design had aged and was not intuitive to update, thus was rarely current.<br><br>During project discovery, it was quickly apparent that a rebuild was in order and a complete restructuring of her content was needed. Additionally, it was determined that she could, and should, sell all her own products directly from her own online shop, rather than a select few while producers sold the rest from their own outlets.<br><br>After a long planning phase, a heavily customized child theme and a well-thought out Woo Commerce store brought her new site up before the Christmas season.<br><br>Many custom templates, custom post types and widgets along w/ a ton of content bring this artist's work to her fans online.<br><br>Technologies Used: HTML, CSS, JS, Jquery, Wordpress, Woo Commerce, PHP.",
             "images" : ["images/caia-home.jpg", "images/caia-portfolio.jpg", "images/caia-shop.jpg", "images/caia-contact.jpg"],
             "imagesLb" : ["images/caia-home-lb.jpg", "images/caia-portfolio-lb.jpg", "images/caia-shop-lb.jpg", "images/caia-contact-lb.jpg"]
         },
@@ -317,7 +317,7 @@ var projects = {
             "title" : "touchwellness.com",
             "link" : "http://touchwellness.com",
             "dates" : "2015",
-            "description" : "An on-site massage company in the San Francisco Bay Area decided they needed to upgrade their decade old website as they modernized their clients and services. The owners wanted a platform which was easily updateable that they could grow with; whether to add a new service, another glowing review or to eventually start a blog.<br><br>Wordpress was the obvious choice. During discovery we found that they were very interested in educating new customers and existing user base as to the methodology and expertise behind their services since so many didn't understand the benefits of thier specific wellness offerings.<br><br>A purely custom, responsive theme was generated with custom templates and modules for each page. Particularly noteable are the RaphealJS based, clickable 'ergonomics' info-graphic and the custom post type driven, home page panel tab to offer prospective clients a quick glimpse of the many benefits they can bring to a work place.<br><br>Technologies Used: HTML, CSS, JS, Jquery, RaphealJS, Wordpress, PHP.",
+            "description" : "An on-site massage company in the San Francisco Bay Area decided they needed to upgrade their decade old website as they modernized their services and to better represent them in tech savvy San Francisco. The owners wanted a platform which was easily updateable that they could grow with; whether to add a new service, another glowing review or to eventually start a blog.<br><br>Wordpress was the obvious choice. During discovery we found that they were very interested in educating new customers and existing user base as to the methodology and expertise behind their services since so many didn't understand the benefits of their specific wellness offerings.<br><br>A purely custom, responsive theme was generated with custom templates and modules for each page. Particularly noteable are the RaphealJS based, clickable 'ergonomics' info-graphic and the custom post type driven, home page panel tab to offer prospective clients a quick glimpse of the many benefits they can bring to a work place.<br><br>Technologies Used: HTML, CSS, JS, Jquery, RaphealJS, Wordpress, PHP.",
             "images" : ["images/tw-home.jpg", "images/tw-wellness.jpg", "images/tw-contact.jpg"],
             "imagesLb" : ["images/tw-home-lb.jpg", "images/tw-wellness-lb.jpg", "images/tw-contact-lb.jpg"]
         }
@@ -510,7 +510,7 @@ $('.wpSkill').tipso({
   offsetX           : 0,
   offsetY           : -10,
   tooltipHover      : true,
-  content           : 'I build custom themes for unique sits based on the Wordpress the platform. This has helped me to learn more PHP as well as the WP ecosystem.',
+  content           : 'I build custom themes for unique web sites based on the Wordpress the platform. This has helped me to learn more PHP as well as the WP ecosystem.',
   ajaxContentUrl    : null,
   contentElementId  : null,
   useTitle          : false,
