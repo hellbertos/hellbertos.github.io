@@ -12,6 +12,8 @@ var bio = {
         "email" : "james.ruggieri@yahoo.com",
         "github" : "hellbertos",
         "githubLink" : "https://github.com/hellbertos",
+        "behance" : "James_Ruggieri",
+        "behanceLink" : "https://www.behance.net/James_Ruggieri",
         "linkedin" : "james_ruggieri",
         "linkedinLink" : "https://www.linkedin.com/in/jamesruggieri",
         "location" : "San Francisco"
@@ -61,6 +63,9 @@ var bio = {
 
                 var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github).replace("%data2%", bio.contacts.githubLink);
                 $("#topContacts, #footerContacts").append(formattedGithub);
+
+                var formattedBehance = HTMLbehance.replace("%data%", bio.contacts.behance).replace("%data2%", bio.contacts.behanceLink);
+                $("#topContacts, #footerContacts").append(formattedBehance);
 
                 var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
                 $("#topContacts, #footerContacts").append(formattedLocation);

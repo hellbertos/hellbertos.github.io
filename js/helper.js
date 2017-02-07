@@ -8,9 +8,9 @@ var HTMLheaderRole = '<span class="sub-h1">%data%</span><hr/>';
 var HTMLcontactGeneric = '<li class="flex-item"><span class="seaFoam-text">%contact%</span><span class="white-text">%data%</span></li>';
 var HTMLmobile = '<li class="flex-item"><span class="seaFoam-text">mobile</span><span class="white-text"><a href="tel:%data%">%data%</a></span></li>';
 var HTMLemail = '<li class="flex-item"><span class="seaFoam-text">email</span><span class="white-text"><a href="mailto:%data%">%data%</a></span></li>';
-var HTMLtwitter = '<li class="flex-item"><span class="seaFoam-text">LinkedIn</span><span class="white-text"><a href="%data2%">%data%</a></span></li>';
-var HTMLgithub = '<li class="flex-item"><span class="seaFoam-text">github</span><span class="white-text"><a href="%data2%">%data%</a></span></li>';
-var HTMLblog = '<li class="flex-item"><span class="seaFoam-text">blog</span><span class="white-text">%data%</span></li>';
+var HTMLtwitter = '<li class="flex-item"><span class="seaFoam-text">LinkedIn</span><span class="white-text"><a href="%data2%" target="_blank">%data%</a></span></li>';
+var HTMLgithub = '<li class="flex-item"><span class="seaFoam-text">github</span><span class="white-text"><a href="%data2%" target="_blank">%data%</a></span></li>';
+var HTMLbehance = '<li class="flex-item"><span class="seaFoam-text">Behance</span><span class="white-text"><a href="%data2%" target="_blank">%data%</a></span></li>';
 var HTMLlocation = '<li class="flex-item"><span class="seaFoam-text">location</span><span class="white-text">%data%</span></li>';
 
 var HTMLbioPic = '<div class="introImg"><img src="%data%" class="biopic"></div>';
