@@ -314,7 +314,7 @@ var projects = {
             "title" : "Crescent Bay Advisors",
             "link" : "http://crescentbayadvisors.com",
             "dates" : "2017",
-            "description" : "CBA financial advisors weren't ready to dig in and build a full featured site, but still needed a stylish, professional presence. After some discussion it was determined that strightforward , but intriguing and slick landing page would be perfect to vet CBA's professionalism to potential customers.<br><br>Using the GSAP js library, css animations and plain js, a short, engaging animation was created focusing users on core ideals of the business with a short overview of the company. A contact button is offered as the final act of this small presentation.<br><br>Technologies Used: HTML, CSS, JS, GSAP.",
+            "description" : "CBA financial advisors weren't ready to dig in and build a full featured site, but still needed a stylish, professional online presence. After some discussion it was determined that strightforward , but intriguing and slick landing page would be perfect to vet CBA's professionalism to potential customers.<br><br>Using the GSAP js library, css animations and plain js, a short, engaging animation was created focusing users on core ideals of the business with a short overview of the company. A contact button is offered as the final act of this small presentation.<br><br>Technologies Used: HTML, CSS, JS, GSAP, PHP.",
             "images" : ["images/1-tagline-fade-in.jpg", "images/2-logo-fade-in.jpg", "images/3-logo-final.jpg", "images/4-final-frame-hover.jpg"],
             "imagesLb" : ["images/1-tagline-fade-in-lb.jpg", "images/2-logo-fade-in-lb.jpg", "images/3-logo-final-lb.jpg", "images/4-final-frame-hover-lb.jpg"]
         },
