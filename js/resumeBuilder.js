@@ -32,7 +32,7 @@ var bio = {
         
     ],
     "tools" : [
-        'Sublime Text',
+        'Atom',
         'Web Storm',
         'Git',
         'Node build tools',
