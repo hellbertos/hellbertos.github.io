@@ -126,6 +126,20 @@ var work = {
             ]
         },
         {
+            "employer" : "Delivery Agent",
+            "singleName" : "da-freelance",
+            "title" : "Remote Front End Developer",
+            "location" : "Denver, CO",
+            "dates" : "2015 - 2016",
+            "description" : [
+                "Maintained, updated and backed-up multiple Wordpress site installs.",
+                "Built new front-end features on existing web properties based on text directive and PSD.",
+                "Track tasks and progress with team and supervisors via Jira Tracking Software",
+                "Performed all tasks a part-time, 100% remote contractor"
+                
+            ]
+        },
+        {
             "employer" : "Circle Dog Media",
             "singleName" : "circle",
             "title" : "Web Designer/Developer",
